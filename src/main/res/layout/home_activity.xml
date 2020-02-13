@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_animation"
+    android:id="@+id/homeActivityLayout">
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:paddingTop="30dp"
+        android:text="00000"
+        android:textSize="32sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:id="@+id/tvcps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPoints"
+        android:layout_centerHorizontal="true"
+        android:text="00000"
+        android:textSize="16sp"
+        />
+
+    <ImageView
+        android:id="@+id/imgWhiteBacklight"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/white_backlight_075x"
+        />
+
+    <ImageView
+        android:id="@+id/imgBoba"
+        android:onClick="onClick"
+        android:layout_width="302dp"
+        android:layout_height="332dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/surprised_boba_420ppi"
+        android:contentDescription="boba"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@+id/btnShop"
+        android:background="@drawable/shop_button"
+        android:onClick="onClick"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@id/btnSignOut"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btnShop"
+        android:onClick="onClick"
+        tools:ignore="OnClick" />
+
+
+</RelativeLayout>

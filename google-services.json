@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "342866201389",
+    "firebase_url": "https://boba-button.firebaseio.com",
+    "project_id": "boba-button",
+    "storage_bucket": "boba-button.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342866201389:android:6a5caf34e0a841f463e1a4",
+        "android_client_info": {
+          "package_name": "andrewdddo.gmail.com.bobabutton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342866201389-4b256ggak5pvhbonrl7m74lisjn9s2m1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfhO2OKEpAKj964EAcq5uZNm5Wki2eYe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342866201389-4b256ggak5pvhbonrl7m74lisjn9s2m1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
